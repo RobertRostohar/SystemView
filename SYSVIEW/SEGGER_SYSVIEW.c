@@ -799,10 +799,10 @@ Send:
     NumBytes = (unsigned int)(pEndPacket - pStartPacket);
 #if SEGGER_SYSVIEW_SUPPORT_LONG_DATA
     if (NumBytes < 127) {
-      *--pStartPacket = EventId;
+      *--pStartPacket = (U8)NumBytes;
     } else {
       //
-      // Backwards U32 encode EventId.
+      // Backwards U32 encode NumBytes.
       //
       if (NumBytes < (1ul << 14)) { // Encodes in 2 bytes
         *--pStartPacket = (U8)(NumBytes >>  7);
