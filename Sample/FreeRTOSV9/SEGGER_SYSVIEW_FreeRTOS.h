@@ -62,8 +62,8 @@ Notes:
 *
 **********************************************************************
 */
-#ifndef portSTACK_GROWTH
-  #define portSTACK_GROWTH              ( -1 )
+#ifndef SYSVIEW_PORT_STACK_GROWTH
+  #define SYSVIEW_PORT_STACK_GROWTH     ( -1 )
 #endif
 
 #define SYSVIEW_FREERTOS_MAX_NOF_TASKS      8
@@ -221,7 +221,7 @@ Notes:
                                                     }
 
 
-#if( portSTACK_GROWTH < 0 )
+#if( SYSVIEW_PORT_STACK_GROWTH < 0 )
 #define traceTASK_CREATE(pxNewTCB)                  if (pxNewTCB != NULL) {                                             \
                                                       SEGGER_SYSVIEW_OnTaskCreate((U32)pxNewTCB);                       \
                                                       SYSVIEW_AddTask((U32)pxNewTCB,                                    \
