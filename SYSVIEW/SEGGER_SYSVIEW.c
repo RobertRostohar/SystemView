@@ -3787,8 +3787,8 @@ void SEGGER_SYSVIEW_VErrorfTarget(const char* s, va_list* pParamList) {
 *       SEGGER_SYSVIEW__PrintElf()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string to the host. The string is referenced by its
+*    address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -3812,8 +3812,8 @@ void SEGGER_SYSVIEW__PrintElf(unsigned int ID, U32 Options) {
 *       SEGGER_SYSVIEW__PrintElf_U32()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with 1 integer argument to the host. The string
+*    is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -3839,8 +3839,8 @@ void SEGGER_SYSVIEW__PrintElf_U32(unsigned int ID, U32 Options, U32 Para0) {
 *       SEGGER_SYSVIEW__PrintElf_U32x2()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with 2 integer arguments to the host. The string
+*    is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -3868,8 +3868,8 @@ void SEGGER_SYSVIEW__PrintElf_U32x2(unsigned int ID, U32 Options, U32 Para0, U32
 *       SEGGER_SYSVIEW__PrintElf_U32x3()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with 3 integer arguments to the host. The string
+*    is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -3899,8 +3899,8 @@ void SEGGER_SYSVIEW__PrintElf_U32x3(unsigned int ID, U32 Options, U32 Para0, U32
 *       SEGGER_SYSVIEW__PrintElf_U32x4()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with 4 integer arguments to the host. The string
+*    is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -3932,8 +3932,8 @@ void SEGGER_SYSVIEW__PrintElf_U32x4(unsigned int ID, U32 Options, U32 Para0, U32
 *       SEGGER_SYSVIEW__PrintElf_U32x5()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with 5 integer arguments to the host. The string
+*    is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -3967,8 +3967,8 @@ void SEGGER_SYSVIEW__PrintElf_U32x5(unsigned int ID, U32 Options, U32 Para0, U32
 *       SEGGER_SYSVIEW__PrintElf_U32x6()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with 6 integer arguments to the host. The string
+*    is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -4004,8 +4004,8 @@ void SEGGER_SYSVIEW__PrintElf_U32x6(unsigned int ID, U32 Options, U32 Para0, U32
 *       SEGGER_SYSVIEW__PrintElf_U32x7()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with 7 integer arguments to the host. The string
+*    is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -4043,8 +4043,8 @@ void SEGGER_SYSVIEW__PrintElf_U32x7(unsigned int ID, U32 Options, U32 Para0, U32
 *       SEGGER_SYSVIEW__PrintElf_U32x8()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with 8 integer arguments to the host. The string
+*    is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -4084,8 +4084,8 @@ void SEGGER_SYSVIEW__PrintElf_U32x8(unsigned int ID, U32 Options, U32 Para0, U32
 *       SEGGER_SYSVIEW__PrintElf_U32x9()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with 9 integer arguments to the host. The string
+*    is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -4127,8 +4127,8 @@ void SEGGER_SYSVIEW__PrintElf_U32x9(unsigned int ID, U32 Options, U32 Para0, U32
 *       SEGGER_SYSVIEW__PrintElf_U32x10()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with 10 integer arguments to the host. The string
+*    is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
@@ -4172,8 +4172,8 @@ void SEGGER_SYSVIEW__PrintElf_U32x10(unsigned int ID, U32 Options, U32 Para0, U3
 *       SEGGER_SYSVIEW__PrintElf_Fmt()
 *
 *  Function description
-*    Print an error string which is formatted on the target before
-*    sent to the host.
+*    Print a string with integer and string arguments to the host.
+*    The string is referenced by its address.
 *
 *  Parameters
 *    ID         - Address of the string.
