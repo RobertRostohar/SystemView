@@ -42,18 +42,18 @@
 *                                                                    *
 **********************************************************************
 ----------------------------------------------------------------------
-File    : Global.h
+File    : SEGGER_Global.h
 Purpose : Global types
-          In case your application already has a Global.h, you should
-          merge the files. In order to use Segger code, the types
-          U8, U16, U32, I8, I16, I32 need to be defined in Global.h;
-          additional definitions do not hurt.
+          In case your application already has a SEGGER_Global.h,
+          you should merge the files. In order to use Segger code,
+          the types U8, U16, U32, I8, I16, I32 need to be defined in
+          SEGGER_Global.h; additional definitions do not hurt.
 Revision: $Rev: 12501 $
 ---------------------------END-OF-HEADER------------------------------
 */
 
-#ifndef GLOBAL_H            // Guard against multiple inclusion
-#define GLOBAL_H
+#ifndef SEGGER_GLOBAL_H            // Guard against multiple inclusion
+#define SEGGER_GLOBAL_H
 
 #define U8    unsigned char
 #define I8    signed char
