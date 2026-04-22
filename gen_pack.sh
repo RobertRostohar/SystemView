@@ -60,13 +60,16 @@ PACK_BASE_FILES="
 # Specify addition argument to packchk
 # Default: empty
 #
-# PACKCHK_ARGS=()
+PACKCHK_ARGS=(-x M317,M362)
 
 # Specify additional dependencies for packchk
 # Default: empty
 #
+# PACKCHK_DEPS="
+#   SEGGER.RTT.pdsc
+#   ARM.CMSIS-FreeRTOS.pdsc
+# "
 PACKCHK_DEPS="
-  SEGGER.RTT.pdsc
   ARM.CMSIS-FreeRTOS.pdsc
 "
 

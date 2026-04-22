@@ -19,12 +19,6 @@
     <keyword>Real Time Visualization</keyword>
   </keywords>
 
-  <requirements>
-    <packages>
-      <package vendor="SEGGER" name="RTT" version="8.0.0-0"/>
-    </packages>
-  </requirements>
-
   <conditions>
     <condition id="Cortex-M0">
       <description>Cortex-M0/M0+/M23 compatible device</description>
