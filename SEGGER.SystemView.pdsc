@@ -8,7 +8,7 @@
   <license>LICENSE.md</license>
 
   <releases>
-    <release version="4.10.1" date="2026-04-15">
+    <release version="4.10.0" date="2026-04-15">
       Initial CMSIS-Pack for SEGGER's SystemView.
     </release>
   </releases>
