@@ -41,6 +41,7 @@ PACK_DIRS="
 #
 PACK_BASE_FILES="
   LICENSE.md
+  OVERVIEW.md
 "
 
 # Specify file names to be deleted from pack build directory
