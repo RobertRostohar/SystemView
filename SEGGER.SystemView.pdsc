@@ -94,7 +94,13 @@
   </components>
 
   <examples>
-    <example name="Blinky" folder="RefApp/FreeRTOS/Blinky" doc="README.md">
+    <example name="Blinky SystemView" folder="RefApp/NoOS/Blinky" doc="README.md">
+      <description>Bare-metal Blinky application using SystemView</description>
+      <project>
+        <environment name="csolution" load="Blinky.csolution.yml"/>
+      </project>
+    </example>
+    <example name="Blinky SystemView FreeRTOS" folder="RefApp/FreeRTOS/Blinky" doc="README.md">
       <description>CMSIS-RTOS2 based Blinky application using FreeRTOS and SystemView</description>
       <project>
         <environment name="csolution" load="Blinky.csolution.yml"/>

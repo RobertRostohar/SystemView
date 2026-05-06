@@ -48,4 +48,5 @@
 
 ## Reference Applications
 
+- Added Bare-metal Blinky using SystemView: [./RefApp/NoOS/Blinky](./RefApp/NoOS/Blinky)
 - Added FreeRTOS Blinky using SystemView: [./RefApp/FreeRTOS/Blinky](./RefApp/FreeRTOS/Blinky)

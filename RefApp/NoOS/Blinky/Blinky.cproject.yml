@@ -1,0 +1,41 @@
+# A project translates into one executable or library.
+project:
+
+  # List the packs used in the project.
+  packs:
+    - pack: SEGGER::RTT
+    - pack: SEGGER::SystemView
+
+  # List connections used to identify compatible software layers.
+  connections:
+    - connect: Board Layer with VIO
+      consumes:
+        - CMSIS_VIO
+
+  # List components to use for your application.
+  # A software component is a re-usable unit that may be configurable.
+  components:
+    - component: SEGGER:RTT
+    - component: SEGGER:SystemView&NoOS
+
+  # List of source groups and files added to a project or a layer.
+  groups:
+    - group: Documentation
+      files:
+        - file: ./README.md
+
+    - group: Application
+      files:
+        - file: ./Blinky.c
+
+  # List of layers used in a project.
+  layers:
+    - layer: $Board-Layer$
+      type: Board
+
+  # List executable file formats to be generated.
+  output:
+    type:
+      - elf
+      - hex
+      - map
