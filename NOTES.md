@@ -45,5 +45,7 @@
         - NuttX: no CMSIS pack available (would also require patching), not provided in the pack.
         - ThreadX: no CMSIS pack available, not provided in the pack.
         - uCOS-II/III: no CMSIS pack available, not provided in the pack.
-- Examples:
-    - Reference application that exemplifies usage would be usefull.
+
+## Reference Applications
+
+- Added FreeRTOS Blinky using SystemView: [./RefApp/FreeRTOS/Blinky](./RefApp/FreeRTOS/Blinky)

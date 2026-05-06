@@ -30,6 +30,7 @@ DEFAULT_ARGS=()
 #
 PACK_DIRS="
   Config
+  RefApp
   Sample/FreeRTOSV11
   Sample/NoOS
   SEGGER

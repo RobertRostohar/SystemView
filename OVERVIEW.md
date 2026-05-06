@@ -8,9 +8,8 @@ SystemView is typically used together with [SEGGER RTT](https://www.segger.com/p
 
 This CMSIS-Pack enables integration of SystemView into CMSIS-based projects and toolchains and provides:
 
-- Core SystemView sources and configuration files (for bare-metal systems and FreeRTOS).
-- RTOS integration sources and additional samples for other operating systems included in the pack repository (not part of the pack).
-- Reference application that exemplifies usage. (ToDo)
+- SystemView sources and configuration files (for bare-metal systems and FreeRTOS).
+- Reference applications that exemplify usage.
 
 To use SystemView in a csolution project add `pack: SEGGER::SystemView` and one of these components:
 
