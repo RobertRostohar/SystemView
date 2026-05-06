@@ -12,7 +12,7 @@
 
 ## Pack description (.pdsc)
 
-- `<url>`: needs to be updated to the actual URL of the pack.
+- `<releases>`: not an actual release on github (no `<url>`).
 - `<requirements>`: temporarily removed the dependency to unpublished RTT pack in order for pack validation to succeed. The dependency can be added back once the RTT pack is published.
 
   ```xml

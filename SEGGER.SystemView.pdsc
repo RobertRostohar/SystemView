@@ -3,7 +3,7 @@
   <vendor>SEGGER</vendor>
   <name>SystemView</name>
   <description overview="OVERVIEW.md">SEGGER's SystemView Real Time Visualization</description>
-  <url>https://www.segger.com/pack/</url>
+  <url>https://github.com/SEGGERMicro/SystemView/raw/main/</url>
   <repository type="git">https://github.com/SEGGERMicro/SystemView.git</repository>
   <license>LICENSE.md</license>
 
