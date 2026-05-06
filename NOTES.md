@@ -4,6 +4,8 @@
 
 - Added `LICENSE.md` file (taken from RTT and is the same also in the sources).
 - Renamed `Global.h` to `SEGGER_Global.h` (more SEGGER specific and avoids conflicts).
+- FreeRTOS V11:
+    - `SEGGER_SYSVIEW_FreeRTOS.h`: enabled reconfiguration with enabled context check (default).
 
 ## SystemView Configuration
 
