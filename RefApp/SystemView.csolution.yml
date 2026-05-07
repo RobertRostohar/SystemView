@@ -36,4 +36,5 @@ solution:
 
   # List related projects.
   projects:
-    - project: ./Blinky.cproject.yml
+    - project: ./Blinky_NoOS/Blinky_NoOS.cproject.yml
+    - project: ./Blinky_FreeRTOS/Blinky_FreeRTOS.cproject.yml

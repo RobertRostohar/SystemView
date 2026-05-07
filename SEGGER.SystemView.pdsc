@@ -94,16 +94,10 @@
   </components>
 
   <examples>
-    <example name="Blinky SystemView" folder="RefApp/NoOS/Blinky" doc="README.md">
-      <description>Bare-metal Blinky application using SystemView</description>
+    <example name="SystemView" folder="RefApp" doc="README.md">
+      <description>SystemView applications</description>
       <project>
-        <environment name="csolution" load="Blinky.csolution.yml"/>
-      </project>
-    </example>
-    <example name="Blinky SystemView FreeRTOS" folder="RefApp/FreeRTOS/Blinky" doc="README.md">
-      <description>CMSIS-RTOS2 based Blinky application using FreeRTOS and SystemView</description>
-      <project>
-        <environment name="csolution" load="Blinky.csolution.yml"/>
+        <environment name="csolution" load="SystemView.csolution.yml"/>
       </project>
     </example>
   </examples>
